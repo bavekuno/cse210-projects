@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // DisplayWelcome - Display the Welcome  message.
+        // DisplayWelcome - Display the Welcome  message
         static void DisplayWelcome()
         {
             Console.WriteLine("Welcome to the program!");
@@ -26,7 +26,7 @@ class Program
             return number;
         }
 
-        // SquareNumber - to accept an integer as a parameter and returns that number squared (as an integer)
+        // SquareNumber - to accept an integer as a parameter and returns that number squared (as an integer).
         static int SquareNumber(int number)
         {
             return number * number;

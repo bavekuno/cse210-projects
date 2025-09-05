@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Create a list to store the numbers.
+        // Create a list to store the numbers
         List<int> numbers = new List<int>();
 
-        // Loop to get numbers from the user.
+        // Loop to get numbers from the user
         Console.WriteLine("Enter a list of numbers, type 0 when finished.");
         int number = -1;
         do

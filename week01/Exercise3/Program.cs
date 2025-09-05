@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("Welcome to the magic letter game! ");
 
-        // Step 1: Ask the user for the magic number
+        // Step 1: Ask the user for the magic number.
         Random random = new Random();
         int magicNumber = random.Next(1, 101);
 
