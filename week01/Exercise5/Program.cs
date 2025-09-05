@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // DisplayWelcome - Displays the message, "Welcome to the Program!"
+        // DisplayWelcome - Display the Welcome  message.
         static void DisplayWelcome()
         {
             Console.WriteLine("Welcome to the program!");
