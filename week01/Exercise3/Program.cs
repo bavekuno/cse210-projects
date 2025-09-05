@@ -10,7 +10,7 @@ class Program
         Random random = new Random();
         int magicNumber = random.Next(1, 101);
 
-        int guess = -1; // Initialize the guess to a value that doesn't match the magic number.
+        int guess = -1; //  The guess  initialized value 
 
         // Step 2 & 3: Loop and check the guess
         while (guess != magicNumber)
