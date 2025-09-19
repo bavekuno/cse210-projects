@@ -1,3 +1,5 @@
+//I had my program work with a library of scriptures rather than a single one thus choose scriptures at random to present to the user.
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
