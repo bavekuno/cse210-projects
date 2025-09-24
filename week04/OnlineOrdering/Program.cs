@@ -1,11 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-// The Address class encapsulates all the details of a physical address.
-// The Customer class holds the customer's name and their address.
-// The Product class encapsulates the details of a single product.
-// The Order class manages a customer and a list of products.
-
 // The Program class is the entry point for the application.
 public class Program
 {
@@ -20,7 +15,7 @@ public class Program
         usaOrder.AddProduct(new Product("Laptop", "LAP101", 1200.00, 1));
         usaOrder.AddProduct(new Product("Mouse", "MOU202", 25.50, 2));
 
-        // Display the details for the USA order.
+        //Display the details for the USA order
         Console.WriteLine("Order 1 (USA Customer)");
         Console.WriteLine(usaOrder.GetPackingLabel());
         Console.WriteLine("---");
@@ -29,7 +24,7 @@ public class Program
         Console.WriteLine($"Total Order Cost: ${usaOrder.GetTotalCost():F2}");
         Console.WriteLine("\n------------------------------------------\n");
 
-        // Create an address for a non-USA customer.
+        //Create an address for a non-USA customer
         Address nonUsaAddress = new Address("456 International Blvd", "Global City", "Ontario", "Canada");
         Customer nonUsaCustomer = new Customer("Jane Doe", nonUsaAddress);
 
@@ -39,7 +34,7 @@ public class Program
         nonUsaOrder.AddProduct(new Product("Monitor", "MON404", 300.00, 1));
         nonUsaOrder.AddProduct(new Product("Webcam", "CAM505", 50.00, 3));
 
-        // Display the details for the non-USA order.
+        //Display the details for the non-USA order
         Console.WriteLine("Order 2 (Non-USA Customer)");
         Console.WriteLine(nonUsaOrder.GetPackingLabel());
         Console.WriteLine("---");

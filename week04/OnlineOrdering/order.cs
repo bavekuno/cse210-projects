@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// The Order class manages a customer and a list of products.
+// Order class manages a customer and a list of products.
 public class Order
 {
     private List<Product> _products;
@@ -18,7 +18,7 @@ public class Order
         _products.Add(product);
     }
 
-    // Calculates the total cost of the order, including shipping.
+    // Calculate the total cost of the order, including shipping
     public double GetTotalCost()
     {
         double totalProductCost = 0;

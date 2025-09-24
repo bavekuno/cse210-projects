@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// The Product class encapsulates the details of a single product.
+//The Product class encapsulates the details of a single product.
 public class Product
 {
     private string _name;
@@ -17,7 +17,7 @@ public class Product
         _quantity = quantity;
     }
 
-    // Calculates and returns the total cost for this product.
+    //Calculate and returns the total cost for this product.
     public double GetTotalCost()
     {
         return _price * _quantity;
@@ -29,7 +29,7 @@ public class Product
         return _name;
     }
 
-    // Returns the product's ID.
+    //Returns the product's ID.
     public string GetProductId()
     {
         return _productId;

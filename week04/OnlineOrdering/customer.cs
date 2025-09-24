@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-// The Customer class holds the customer's name and their address.
+//The Customer class holds the customer's name and their address
 public class Customer
 {
     private string _name;
@@ -13,19 +13,19 @@ public class Customer
         _address = address;
     }
 
-    // Returns true if the customer lives in the USA by checking their address.
+    //Returns true if the customer lives in the USA by checking their address
     public bool IsInUSA()
     {
         return _address.IsInUSA();
     }
 
-    // Returns the customer's name.
+    //Returns the customer's name.
     public string GetName()
     {
         return _name;
     }
 
-    // Returns the customer's address object.
+    //Returns the customer's address object.
     public Address GetAddress()
     {
         return _address;
