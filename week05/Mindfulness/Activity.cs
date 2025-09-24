@@ -1,3 +1,4 @@
+
 // The base class for all mindfulness activities.
 // It contains shared properties and methods for displaying common messages and animations.
 public class Activity

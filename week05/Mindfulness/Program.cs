@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Linq;
 
-
 // The Program class serves as the entry point and main menu for the application.
 public class Program
 {
