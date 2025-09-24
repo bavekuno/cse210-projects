@@ -1,3 +1,4 @@
+
 // The BreathingActivity class guides the user through a breathing exercise.
 public class BreathingActivity : Activity
 {
@@ -5,7 +6,7 @@ public class BreathingActivity : Activity
     {
     }
 
-    // Runs the breathing activity loop.
+    //Runs the breathing activity loop.
     public void Run()
     {
         DisplayStartingMessage();

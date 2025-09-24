@@ -1,3 +1,4 @@
+
 // The ReflectionActivity class prompts the user with questions for reflection.
 public class ReflectionActivity : Activity
 {

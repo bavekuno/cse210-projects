@@ -40,7 +40,7 @@ public class Activity
         ShowSpinner(5);
     }
 
-    // Shows a simple spinner animation for a given number of seconds.
+    //Shows a simple spinner animation for a given number of seconds.
     public void ShowSpinner(int seconds)
     {
         List<string> spinnerFrames = new List<string> { "|", "/", "-", "\\", "|", "/", "-", "\\" };
@@ -60,7 +60,7 @@ public class Activity
         }
     }
 
-    // Shows a countdown animation from a given number of seconds.
+    //Shows a countdown animation from a given number of seconds
     public void ShowCountdown(int seconds)
     {
         for (int i = seconds; i > 0; i--)

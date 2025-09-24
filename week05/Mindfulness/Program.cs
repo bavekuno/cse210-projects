@@ -3,10 +3,6 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Linq;
 
-// The base class for all mindfulness activities.
-// The BreathingActivity class guides the user through a breathing exercise.
-// The ListingActivity class helps the user list as many items as they can in a given category.
-// The ReflectionActivity class prompts the user with questions for reflection.
 
 // The Program class serves as the entry point and main menu for the application.
 public class Program
