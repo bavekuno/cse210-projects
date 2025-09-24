@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-// Program class contains the Main method, which is the entry point of the application.
+// the Program class contains the Main method, which is the entry point of the application.
 // It creates video and comment objects and displays their information.
 public class Program
 {
